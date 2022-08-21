@@ -1,0 +1,42 @@
+callback function
+
+Product.findById(prodId, product => {
+        console.log(product)
+        if (!product){
+            return res.redirect('/');
+        }
+        res.render('pages/admin/edit-product', {
+            pageTitle:'Edit Product',
+            path: '/admin/edit-product', // we put edit product so that no manu element is hover-over hightlighed
+            editing: editMode,
+            product: product
+        });
+    });
+
+
+promise
+
+
+
+const nodemailer = require('nodemailer');
+
+// let transporter = nodemailer.createTransport({
+//   service: "gmail",
+//   auth: {
+//     user: "lamprakism9@gmail.com",
+//     pass: "123"
+//   },
+//   tls: {
+//     rejectUnauthorized:false
+//   }
+// })
+
+// let mailOption = {
+//   from : "lamprakism9@gmail.com",
+//   to : "mixalhslampra_itec@yahoo.com",
+//   subject: "Test email send...",
+//   text: "This is a test"
+// }
+
+//
+

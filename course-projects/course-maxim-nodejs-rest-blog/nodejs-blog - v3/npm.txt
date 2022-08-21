@@ -1,0 +1,7 @@
+npm install --save body-parser
+npm install --save express-validator
+npm install --save multer (Upload files)
+npm install --save bcryptjs
+npm install --save jsonwebtoken
+npm install --save socket.io
+npm install --save socket.io-client
