@@ -1,0 +1,3 @@
+[submodule "course-projects/courses"]
+	path = course-projects/courses
+	url = https://github.com/mikelamprakis/courses.git
